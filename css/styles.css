@@ -30,6 +30,7 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+
 .contacts-nav .contacts {
   color: var(--primary-text-color);
 }
