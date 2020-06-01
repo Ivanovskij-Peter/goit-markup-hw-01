@@ -39,6 +39,10 @@ ul {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .contacts-nav .contacts {
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -57,6 +61,15 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
+}
+.aside-button {
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
 }
 /* profit */
 .profit-title {
@@ -133,10 +146,6 @@ ul {
   font-size: 14px;
   line-height: 1.7;
 }
-
-.button-primary {
-  color: var(--second-text-color);
-}
 .footer-down {
   color: var(--second-footer-color);
   font-family: Roboto;
@@ -150,8 +159,8 @@ ul {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2px;
+  font-size: 22px;
+  line-height: 1.2;
 }
 .second-logo {
   color: var(--body-color);
@@ -171,4 +180,14 @@ ul {
   font-size: 14px;
   line-height: 1.2;
   color: var(--body-color);
+}
+/* button */
+.button-primary {
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.9;
 }
